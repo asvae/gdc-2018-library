@@ -1,0 +1,22 @@
+{
+  "name": "gdc-2018-library",
+  "version": "0.0.1",
+  "description": "Test project library for GDG DevFest Belarus 2018 Conference",
+  "main": "dist/src/index.js",
+  "module": "dist/src/index.esm.js",
+  "types": "dist/src/index.d.ts",
+  "private": false,
+  "license": "MIT",
+  "author": "Yauheni Prakopchyk",
+  "scripts": {
+    "build": "rollup -c",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/jest": "^23.3.10",
+    "babel-core": "^6.24.1",
+    "babel-preset-env": "^1.6.1",
+    "jest": "^23.6.0",
+    "rollup": "^0.67.3"
+  }
+}
